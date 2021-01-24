@@ -1,0 +1,16 @@
+{
+  "name": "burdulixda/tbc-installments-woo",
+  "description": "",
+  "keywords": ["wordpress", "plugin"],
+  "homepage": "https://github.com/burdulixda/tbc-installments-woo",
+  "authors": [
+    {
+      "name": "George Burduli",
+      "homepage": "https://github.com/burdulixda"
+    }
+  ],
+  "type": "wordpress-plugin",
+  "require": {
+    "php": ">=5.6"
+  }
+}
