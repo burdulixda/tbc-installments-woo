@@ -49,7 +49,7 @@ class WC_Gateway_TBC extends WC_Payment_Gateway {
 	 */
 	protected function setup_properties() {
 		$this->id                 = 'tbc';
-		$this->icon               = apply_filters( 'woocommerce_crystal_icon', plugins_url( '../assets/crystal_icon.png', __FILE__ ) );
+		$this->icon               = apply_filters( 'woocommerce_tbc_icon', plugins_url( '../assets/tbc_icon.png', __FILE__ ) );
 		$this->method_title       = __( 'TBC Installments', 'tbc-woo' );
 		$this->api_key            = __( 'TBC API Key', 'tbc-woo' );
 		$this->api_secret         = __( 'TBC API Secret', 'tbc-woo' );
